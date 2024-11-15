@@ -143,7 +143,23 @@ nav{
    gap: 5rem;
    height: 80vh;
  }
+ .pict-container {
+   display: flex;
+   height: 400px;
+   width: 400px;
+   margin: auto 0;
+   border-radius: 50%;
+   overflow: hidden;
+   align-items: center;
+   justify-content: center;
+   border: 2px solid #000; /* Optional border for styling */
+}
 
+.pict-container img {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
  .pic-container{
    display: flex;
    height: 400px;
