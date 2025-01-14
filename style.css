@@ -7,7 +7,8 @@
 body{
     font-family: "Poppins", sans-serif;
     background-attachment: fixed;
-    background-color: rgb(51, 22, 78);
+    background-color: Beige/Tan;
+   
 }
 html{
     scroll-behavior: smooth;
@@ -29,6 +30,8 @@ nav{
     justify-content: space-around;
     align-items: center;
     height: 17vh;
+     
+    background-color:  silver;
 }
 .links{
     gap: 2rem;
@@ -186,7 +189,7 @@ nav{
  .title{
    font-size: 3rem;
    text-align: center;
-   color: white;
+  
  }
  #socials-container{
    display: flex;
@@ -268,10 +271,10 @@ nav{
 .details-container {
 padding: 1.5rem;
 flex: 1;
-background: white;
+background:  silver;
 border-radius: 2rem;
 border: rgb(53,53,53)0.1rem solid;
-border-color:rgb(163,163,163) ;
+border-color:white ;
 text-align: center;
 }
 
