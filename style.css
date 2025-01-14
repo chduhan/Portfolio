@@ -6,6 +6,8 @@
 
 body{
     font-family: "Poppins", sans-serif;
+    background-attachment: fixed;
+    background-color: rgb(51, 22, 78);
 }
 html{
     scroll-behavior: smooth;
@@ -184,6 +186,7 @@ nav{
  .title{
    font-size: 3rem;
    text-align: center;
+   color: white;
  }
  #socials-container{
    display: flex;
@@ -209,6 +212,7 @@ nav{
    width: 8rem;
    border-radius: 2rem;
   }
+  
 
   .btn-color-1, .btn-color-2{
    border: rgb(53,53,53) 0.1rem solid;
